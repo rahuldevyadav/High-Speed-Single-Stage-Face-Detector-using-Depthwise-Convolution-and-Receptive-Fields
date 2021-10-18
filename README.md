@@ -1,2 +1,6 @@
-# High-Speed-Single-Stage-Face-Detector-using-Depthwise-Convolution-and-Receptive-Fields
-a single-stage end-to-end trained face detector
+# __High Speed Single Stage Face Detector using Depthwise Convolution and Receptive Fields__
+
+## __Abstract__
+####  At present face detectors use a large Convolutional Neural Network (CNN) to achieve high detection performance, which is a widely used sub-area of artificial intelligence. These face detectors have a large number of parameters which reduces their detection speed dreadfully on a system with low computa-tional resources. This is a challenging problem to achieve good performance and high detection speed with finite computational power. In this paper, we propose a single-stage end-to-end trained face detector to address this challenging problem. The computational cost is reduced by using depthwise convolution and swiftly reducing the size of an input image. The early layers of the model use CReLU (Concatenated Rectified Linear Unit) activations to preserve the information and generate better representative features of the input. Respective Field (RF) blocks used in the model improve the detection performance. The proposed model is of 1.7 Megabytes size, able to achieve 42 FPS (Frame Per Second) on CPU (i5-8330H) and 179 FPS on GPU (GTX1060). The model is evaluated on various benchmark datasets like WIDER FACE, PASCAL faces and AFW and archive good performance compared to other state of art methods.
+
+
